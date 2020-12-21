@@ -1,1 +1,15 @@
+# Justification :
 
+  from the two options provided , i.e between Long and Real mode , I would 
+  prefer the Real Mode .
+  
+  We all know , that the backward Compatibility with 8086 , the x86-64 based processor 
+  starts in Real mode , Moreover in the situation provided to us , where the ram size is 320 kb , both 
+  the real mode as well as long will support beyond the size provided.
+  In case of long mode , we defintely have paging as an advantage , but in terms of computational based system , it is much faster to
+  access locations in case of Real mode , since it doesn't supports paging , and don't have virtual memory concept which has its own advantage against 
+  long mode , as long mode has overheads due to paging .
+  Though , in terms of security and protection point of view , long mode beats real , and real mode may even have higher chance of getting affected from 
+  malicious and buggy programs.
+  
+  Therefore, the coclusion is , for Computing purpose , I would go with real mode, to make the process faster and avoid additonal paging overheads.
