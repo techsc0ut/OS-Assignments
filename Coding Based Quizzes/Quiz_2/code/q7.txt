@@ -1,0 +1,12 @@
+Yes , the system is in safe state , the safe order/sequence would be any of the following :
+- [P0 P3 P4 P1 P2]
+- [P0 P3 P4 P2 P1]
+- [P0 P3 P1 P2 P4]
+- [P0 P3 P2 P1 P4]
+- [P0 P3 P2 P4 P1]
+Using Banker's Algorithm.
+
+Note :
+
+Their may/or may not be other sequences/orders apart from the above
+given below.
