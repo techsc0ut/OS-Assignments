@@ -7,6 +7,7 @@ September 17, 2020
 
 Submission deadline: September 19, 2020 @ 2359hrs.
 Problem 1: 10 points.
+
 It is “believed” that a program can have only one entry point. Your tasks is
 test out this hypothesis. You need to write a program in standalone assembly
 language program that has two functions – a start function (not main) where
@@ -31,6 +32,8 @@ What to submit:
 • Description of the programs and if and why they work together, i.e. if
 main() can call checkGreater or not, along with an explaination for the
 same.
+
+
 Problem 2: 5 points.
 Try to compile the following code snippet (no need to link).
 
@@ -48,6 +51,8 @@ What to submit:
 snippet.
 • A writeup showing all the compilation errors and warnings that you may
 have encountered and their possible explanations.
+
+
 Problem 3: 5 points.
 The following code snippet is being provided to you:
 v oid main ( )
@@ -64,6 +69,8 @@ What to submit:
 where eight 64-bit integers, and the other where sixteen 32-bit integers
 are respectively saved in the array.
 • A writeup describing the rationale behind your code.
+
+
 Problem 4: 10 points.
 1. Write a function called ’long add’ in x86 (32-bit) assembly, which takes
 four integers and returns their sum. Then, write a C program that calls
@@ -81,6 +88,8 @@ What to submit:
 • Makefile to compile the programs.
 • A text file named ‘A4.txt’ with the justification as to why a change is
 needed or not needed.
+
+
 Problem 5: 4 points.
 Suppose you have an x86-64 processor in an embedded system with only 320KB
 of RAM. Then, would you ever use the long mode (64-bit mode) or would you
@@ -88,6 +97,8 @@ prefer to use real mode (16-bit mode) for running your program. Please justify
 your answer.
 What to submit
 A text file named ‘A5.txt’ with the justification.
+
+
 Problem 6: 6 points.
 1. Write a program to store a string containing your name in main memory.
 2. Would your program change if you want to store this string on the disk?
